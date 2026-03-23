@@ -1,1 +1,1 @@
-https://miccads.github.io/portfolio/index.html
+https://miccads.github.io/portfolio/
