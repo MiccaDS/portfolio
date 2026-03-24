@@ -412,6 +412,11 @@ practical problem solving, and I closely follow the rapid developments in the AI
         description: "A tool that uses AI to help job seekers optimize their resumes and cover letters for specific job descriptions",
         link: "https://github.com/MiccaDS/jobflow-ai"
       },
+       {
+        title: "SentencesAI",
+        description: "An intelligent tool to seamlessly create Flashcards",
+        link: "https://sentencesai.streamlit.app/"
+      },
     ];
 
     const container = document.getElementById('github-projects');
@@ -421,7 +426,7 @@ practical problem solving, and I closely follow the rapid developments in the AI
       card.innerHTML = `
         <h3>${proj.title}</h3>
         <p>${proj.description}</p>
-        <a href="${proj.link}" target="_blank" class="github-link">View on GitHub →</a>
+        <a href="${proj.link}" target="_blank" class="github-link">View project →</a>
       `;
       container.appendChild(card);
     });
